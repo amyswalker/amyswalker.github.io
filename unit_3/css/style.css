@@ -11,7 +11,7 @@ header {
 	background-size: cover;
 	color: #222222;
 	font-size: 30 px;
-	font-family: "Georgia";
+	font-family: 'Georgia', serif;
 
 }
 
@@ -25,19 +25,19 @@ img {
 
 main {
 	text-align: center;
-	font-size: 22 px;
-	font-family: "Helvetica";
-	margin-top: 20 px;
-	margin-bottom: 20 px;
-	margin-right: 20 px;
-	margin-left: 20 px;
-}
+	font-size: 22px;
+	font-family: 'Helvetica', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	
+	}
 
 footer {
 
-	margin-top: 40 px;
+	margin-top: 40px;
 	text-align: center;
-	font-size: 20 px;
+	font-size: 20px;
 }
 
 

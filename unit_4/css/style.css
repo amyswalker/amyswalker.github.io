@@ -10,12 +10,10 @@ body {
 	font-size: 16 px;
 	text-align: center;
 	font-family: 'Pontano Sans', sans serif;
-
 }
 
 #hero {
-
-background: url(../assets/dronestudents2.jpg) no-repeat center center scroll;
+	background: url(../assets/dronestudents2.jpg) no-repeat center center scroll;
     background-image: url("../assets/dronestudents2.jpg");
     background-position-x: center;
     background-position-y: center;
@@ -32,18 +30,14 @@ background: url(../assets/dronestudents2.jpg) no-repeat center center scroll;
     background-size: cover;
     height: 750px;
     padding: 20px 0;
-
 }
-
 
 img { 
 		width:100%; 
 }
 
-
 header{  
 	margin: 8em auto
-
 }
 
 h1 {
@@ -51,7 +45,7 @@ h1 {
 	font-family: 'Bevan', cursive;
 }
 
-h2{ 
+h2 { 
 	font-weight: bold; 
 	letter-spacing: 3px
 }
@@ -73,7 +67,6 @@ h3 {
 }
 
 footer { 
-
 	margin-top: 3em;
 	font-style: italic;
 }

@@ -1,0 +1,82 @@
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-size: 16 px;
+	text-align: center;
+	font-family: 'Pontano Sans', sans serif;
+
+}
+
+#hero {
+
+background: url(../assets/dronestudents2.jpg) no-repeat center center scroll;
+    background-image: url("../assets/dronestudents2.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: scroll;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 750px;
+    padding: 20px 0;
+
+}
+
+
+img { 
+		width:100%; 
+}
+
+
+header{  
+	margin: 8em auto
+
+}
+
+h1 {
+	font-size: 2.5em;
+	font-family: 'Bevan', cursive;
+}
+
+h2{ 
+	font-weight: bold; 
+	letter-spacing: 3px
+}
+	
+p {
+	margin: 1em auto;
+	width: 30em;
+	line-height: 1.5em;
+}
+
+.courses {
+	margin: 1em auto; 
+	width: 30em;
+
+}
+
+h3 { 
+	letter-spacing: 3px; 
+}
+
+footer { 
+
+	margin-top: 3em;
+	font-style: italic;
+}
+
+
+

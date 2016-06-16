@@ -23,7 +23,8 @@ img {
 	font-style: italic;
 }
 
-p, ul {
+main {
+	text-align: center;
 	font-size: 22 px;
 	font-family: "Helvetica";
 	margin-top: 20 px;

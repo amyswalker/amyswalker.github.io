@@ -25,6 +25,9 @@ header{
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 h1 {
@@ -39,7 +42,7 @@ h2 {
 	
 p {
 	margin: 1em auto;
-	width: 30em;
+	width: 28em;
 	line-height: 1.5em;
 }
 
@@ -50,6 +53,9 @@ h3 {
 footer { 
 	margin-top: 3em;
 	font-style: italic;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 #hero {
@@ -68,8 +74,15 @@ footer {
 
 .courses {
 	margin: 1em auto; 
-	width: 30em;
+	/*width: 30em;*/
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
 
+}
+
+nav a {
+	padding-right: .5em;
 }
 
 

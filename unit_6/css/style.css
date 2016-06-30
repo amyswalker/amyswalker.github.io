@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Pontano+Sans);
+
+* {
+	padding: 0;
+	margin: 0;
+	-moz-box-sizing: border-box;	-webkit-box-sizing: border-box;	   box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+img { 
+		width:100%; 
+}
+
+header{  
+	z-index: 9;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-family: 'Bevan', cursive;
+}
+
+h2 { 
+	font-weight: bold; 
+	letter-spacing: 3px
+}
+	
+p {
+	margin: 1em auto;
+	/*width: 28em;*/
+	line-height: 1.5em;
+}
+
+h3 { 
+	letter-spacing: 3px; 
+}
+
+footer { 
+	margin-top: 3em;
+	font-style: italic;
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#hero {
+	padding: 20px 0;
+	position: relative;
+}
+
+#mask {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.75);
+}
+
+/*.courses {
+	margin: 1em auto; 
+	/*width: 30em;*/
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+
+}*/
+
+nav a {
+	padding-right: .5em;
+}
+
+
+
+#tech {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+#right {
+	display:block;
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+
+/*.courses {
+	margin: 1em auto; 
+	width: 30em;
+	float: left;*/
+}
+
+
+
+
+
